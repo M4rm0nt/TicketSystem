@@ -27,6 +27,9 @@ public class Ticket {
         this.kategorieId = kategorieId;
     }
 
+    public Ticket() {
+    }
+
     public long getTicketId() {
         return ticketId;
     }
